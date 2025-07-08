@@ -27,28 +27,40 @@ This project trains an LSTM neural network on stock price data from Yahoo Financ
 ```bash
 git clone https://github.com/Constellation-destroyer/ml-stock-predictor.git
 cd ml-stock-predictor
+```
 
 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 3. Train the Model
+
+```bash
 python train_model.py
+```
 
 4. Run the App
+
+```bash
 streamlit run app.py
+```
 
-Tech Stack
-Python
-Streamlit
-TensorFlow / Keras
-Pandas / NumPy
-yFinance
-Matplotlib
-Scikit-learn
+## Tech Stack
 
-What I Learned
-Time-series forecasting using LSTM
-Preprocessing stock data for machine learning
-Creating sliding windows for sequential input
-Building Streamlit apps for ML model deployment
-Saving and loading .keras model formats
+- Python  
+- Streamlit  
+- TensorFlow / Keras  
+- Pandas / NumPy  
+- yFinance  
+- Matplotlib  
+- Scikit-learn  
+
+## What I Learned
+
+- Time-series forecasting using LSTM  
+- Preprocessing stock data for machine learning  
+- Creating sliding windows for sequential input  
+- Building Streamlit apps for ML model deployment  
+- Saving and loading `.keras` model formats  
